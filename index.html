@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Mooli&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="images/agenda.png" alt="Agenda de contatos"/>
+            <div class="container-logo">
+                <h1>AGENDA DE CONTATOS</h1>
+                <form id = 'form-agenda'>
+                    <input type="text" id = 'nome-contato' required placeholder="Nome do contato"/>
+                    <input type="tel" id = 'numero-contato' required placeholder="Número de contato"/>
+                    <button type="submit">Cadastrar</button>
+                </form>
+            </div>
+        </header>
+
+        <table cellspacing = "0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Telefone</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td id = 'total-contatos' colspan="2"> Nenhum contato salvo</td>
+                    <!--atributo para 'alinhar' o conteúdo de 1 linha em 2 colunas-->
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
