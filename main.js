@@ -1,3 +1,7 @@
+$(document).ready(function() {
+    $('#numero-contato').mask('(00) 00000-0000');
+})
+
 const form = document.getElementById('form-agenda')
 
 const contatos = [];
@@ -11,6 +15,7 @@ form.addEventListener('submit', function(e) {
     adicionaLinha();
     atualizaTabela();
     calculaTotalContatos();
+    removerContato();
 });
 
 function adicionaLinha() {
@@ -28,7 +33,8 @@ function adicionaLinha() {
         let linha = '<tr>';
         linha += `<td>${inputNomeContato.value}</td>`;
         linha += `<td>${inputNumeroContato.value}</td>`;
-        linha += '</td>'
+        linha += `<td><i class="bi bi-trash3 trash-icon" onclick="removerContato('${inputNomeContato.value}')"></i></td>`
+        linha += '</tr>'
 
         linhas += linha;
     }
@@ -44,4 +50,25 @@ function atualizaTabela() {
 function calculaTotalContatos() {
     let totalContatos = contatos.length;
     document.getElementById('total-contatos').innerHTML = `${totalContatos} contato(s) salvo(s)`;
+}
+
+function removerContato(nomeContato) {
+    const index = contatos.indexOf(nomeContato) /* a função está encontrando o índice do nome do conatto no array de contatos */
+    if (index > -1) {
+        contatos.splice(index, 1) /* altera o conteúdo de uma lista, removendo o nome e o número do contato antigo */
+        numeros.splice(index, 1)
+        linhas = '' /* redefine as linhas para uma string vazia */
+        for (let i = 0; i < contatos.length; i ++) {
+            let linha = '<tr>'
+            linha += `<td>${contatos[i]}</td>`
+            linha += `<td>${numeros[i]}</td>`
+            linha += `<td><i class="bi bi-trash3 trash-icon" onclick="removerContato('${contatos[i]}')"></i></td>`
+            linha += '</tr>'
+
+            linhas += linha;
+        }
+
+        atualizaTabela();
+        calculaTotalContatos();
+    }
 }
