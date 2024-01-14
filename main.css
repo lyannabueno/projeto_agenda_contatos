@@ -81,3 +81,11 @@ table tfoot td {
     width: 100%;
     margin: 0 auto;
 }
+
+.trash-icon {
+    cursor: pointer;
+}
+
+.trash-icon:hover {
+    color: red;
+}
