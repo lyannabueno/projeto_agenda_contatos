@@ -5,8 +5,16 @@ Este projeto é uma aplicação web simples e intuitiva para gerenciar sua agend
 ## Funcionalidades 🌟
 
 - **Adicionar Contatos:** Insira o nome e o número de telefone do contato para adicioná-lo à sua agenda.
+
+![image](https://github.com/lyannabueno/projeto_agenda_contatos/assets/130186281/e007a301-00d0-4f5b-b138-52c88e304ded)
+  
 - **Visualizar Contatos:** Todos os contatos adicionados são exibidos em uma tabela clara, facilitando a visualização.
+
+![image](https://github.com/lyannabueno/projeto_agenda_contatos/assets/130186281/02ea0c15-1ff3-48a2-9720-f7d21e0dc288)
+
 - **Remover Contatos:** Caso precise excluir um contato, basta clicar no ícone de lixeira correspondente.
+
+![image](https://github.com/lyannabueno/projeto_agenda_contatos/assets/130186281/dda8fa40-876c-4624-a60e-923bd667fc17)
 
 ## Tecnologias Utilizadas 📚
 
