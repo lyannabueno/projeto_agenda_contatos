@@ -1,54 +1,52 @@
-# Agenda de contatos 📒
-
-Este projeto é uma aplicação web simples e intuitiva para gerenciar sua agenda de contatos. Com uma interface limpa e fácil de usar, você pode adicionar, visualizar e remover contatos rapidamente, mantendo suas informações importantes sempre à mão.
-
-## Funcionalidades 🌟
-
-- **Adicionar Contatos:** Insira o nome e o número de telefone do contato para adicioná-lo à sua agenda.
-
-![image](https://github.com/lyannabueno/projeto_agenda_contatos/assets/130186281/e007a301-00d0-4f5b-b138-52c88e304ded)
-  
-- **Visualizar Contatos:** Todos os contatos adicionados são exibidos em uma tabela clara, facilitando a visualização.
-
-![image](https://github.com/lyannabueno/projeto_agenda_contatos/assets/130186281/02ea0c15-1ff3-48a2-9720-f7d21e0dc288)
-
-- **Remover Contatos:** Caso precise excluir um contato, basta clicar no ícone de lixeira correspondente.
+# Contacts Agenda 📒
 
 ![image](https://github.com/lyannabueno/projeto_agenda_contatos/assets/130186281/dda8fa40-876c-4624-a60e-923bd667fc17)
 
-## Tecnologias Utilizadas 📚
+## Features 🌟
 
-- **HTML5:** Estrutura da página web.
-- **CSS3:** Estilização da interface do usuário.
-- **JavaScript:** Interações dinâmicas na página, melhorando a usabilidade e a interação do usuário.
-- **jQuery 3.7.1:** Utilizado para simplificar o JavaScript, como na validação de formulários e manipulação do DOM para uma experiência de usuário mais interativa.
-- **jQuery Mask Plugin 1.14.16** Máscara de entrada no campo de telefone do formulário.
-- **Bootstrap Icons 1.11.3:** Fornece ícones para a interface, como o ícone de lixeira utilizado para remover contatos.
+- **Add Contacts:** Enter the contact's name and phone number to add them to your agenda.
+  
+- **View Contacts:** All added contacts are displayed in a clear table for easy viewing.
 
-## Como Usar  ✏️
+- **Remove Contacts:** If you need to delete a contact, simply click on the corresponding trash icon.
 
-Para entrar na agenda e adicionar, vizualizar ou remover um contato, você não precisa instalar nada. Simplesmente clone ou baixe o projeto para o seu computador e abra o arquivo `index.html` em um navegador de sua escolha.
+## Technologies Used 📚
 
-### Passos para Executar
+<p align="center">
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+  <img src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white" alt="jQuery">
+  <img src="https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+</p>
 
-1. **Clone ou baixe o repositório:**
+#### What I learned in this project:
+- Removing an element that was added by the user.
+
+## How to Use  ✏️
+
+To enter the agenda and add, view, or remove a contact, you don't need to install anything. Simply clone or download the project to your computer and open the `index.html` file in a browser of your choice.
+
+### Steps to Run
+
+1. **Clone or download the repository:**
 
 ```bash
 https://github.com/lyannabueno/projeto_agenda_contatos.git
 ```
 
-2. **Abra o arquivo `index.html`:**
+2. **Open the `index.html` file:**
 
-Localize o arquivo `index.html` no diretório do projeto e abra-o em um navegador web.
+Locate the `index.html` file in the project directory and open it in a web browser.
 
-## Contribuições 🫂
+## Contributions 🫂
 
-Contribuições para melhorar a calculadora de médias são bem-vindas. Se você tem uma sugestão para melhorar este projeto, sinta-se à vontade para criar um fork do repositório, fazer suas alterações e enviar um pull request.
+Contributions to improve the contacts agenda are welcome. If you have a suggestion to enhance this project, feel free to fork the repository, make your changes, and submit a pull request.
 
-## Contato 📩
+## Contact 📩
 
 Ana Bueno - anabuenogomes@hotmail.com
 
-Link do projeto: https://projeto-agenda-contatos-qsdn7ctkb-lyannabueno.vercel.app
+Project link: https://projeto-agenda-contatos-qsdn7ctkb-lyannabueno.vercel.app
 
 ---
